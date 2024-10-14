@@ -93,6 +93,40 @@ button:hover {
     background-color: #969494;
 }
 
+/* Para alinear el botón y la pregunta en la misma línea */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form-actions button {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.form-actions button:hover {
+    background-color: #969494;
+}
+
+/* Estilo para el enlace de la nueva habitación */
+.form-actions .new-room {
+    color: rgb(29, 28, 28); /* Color azul para el enlace */
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.form-actions .new-room:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el mouse */
+}
+
 /* Ajustar el estilo del título */
 .header {
     text-align: center; /* Centra el título */
@@ -104,4 +138,19 @@ button:hover {
 .header h1 {
     font-size: 2.5em; /* Ajusta el tamaño del título si es necesario */
     color: #333; /* Ajusta el color si es necesario */
+}
+
+.btn-custom {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #969494; /* Cambia el color al pasar el mouse */
 }
