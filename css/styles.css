@@ -1,0 +1,107 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif; /* Unifica la fuente */
+}
+
+/* Registro Ocupacional */
+body {
+    background-color: rgb(236, 235, 235);
+}
+
+/* Navbar */
+/* Estilo de los botones en el navbar */
+.navbar .btn {
+    color: rgb(247, 245, 245);
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .btn:hover {
+    background-color: #969494;
+}
+
+
+
+/* Divisor */
+.separator {
+    width: 75%;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+/* Formulario */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 65px;
+    width: 700px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%; /* Para asegurar que ocupe todo el ancho */
+}
+
+label {
+    color: rgb(78, 77, 77);
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #969494;
+}
+
+/* Ajustar el estilo del título */
+.header {
+    text-align: center; /* Centra el título */
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif; /* Aseguramos que la fuente sea Montserrat */
+    font-weight: 600; /* Aseguramos el grosor correcto del texto */
+}
+
+.header h1 {
+    font-size: 2.5em; /* Ajusta el tamaño del título si es necesario */
+    color: #333; /* Ajusta el color si es necesario */
+}
