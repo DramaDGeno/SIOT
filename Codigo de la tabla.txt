@@ -1,0 +1,10 @@
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuarios VARCHAR(100) NOT NULL,
+    contrasena VARCHAR(255) NOT NULL,
+    rol ENUM('admin', 'empleado') NOT NULL
+);
+
+INSERT INTO usuarios (usuarios, contrasena, rol) VALUES
+('adrian', '1234', 'admin'),
+('kazu', '1234', 'empleado');
